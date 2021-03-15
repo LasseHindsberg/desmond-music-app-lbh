@@ -1,0 +1,24 @@
+@import "variables";
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: $fontStack;
+    font-size: $fontSize;
+    background-color: $backgroundColor;
+    color: $textColor;
+}
+.pageWrapper {
+    height: 100vh;
+    width: 100vw;
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.github {
+    color: $textColor;
+}
